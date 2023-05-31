@@ -3,7 +3,9 @@ package com.mindcurv.miniproject.dto;
 public class AllocationRequestDto {
     private int collegeid;
     private int departmentid;
-
+	private String name;
+	
+	
     public int getCollegeid() {
         return collegeid;
     }
